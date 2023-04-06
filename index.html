@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./style_home.css">
+    
+    <title>E-Commerce Website</title>
+</head>
+<body>
+
+    <section id="header">
+        <div id="navbar">
+            <a href="#"><img src="./navbar/logo.svg" alt="logo company" ></a>
+
+            <nav>
+                <ul id="navigation">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa fa-shopping-bag shopping" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-user user" aria-hidden="true"></i></a></li>
+                </ul>
+
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="#" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="button-sidenav">
+                    <button class="openbtn"><i class="fa fa-shopping-bag shopping" aria-hidden="true"></i></button>
+                    <button class="openbtn"><i class="fa fa-user user" aria-hidden="true"></i></button>
+                    <button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+                </div>
+            </nav>
+        </div>
+
+        <div id="cta">
+            <h1>Klassic</h1>
+            <p>multipurpose store</p>
+            <button>shop now</button>
+        </div>
+    </section>
+
+    <section id="product" class="section-p1">
+        <h1>Featured Products</h1>
+        <div class="pro_container">
+            <div class="pro">
+                <img src="./product/product (1).jpg" alt="product 1">
+                <div class="description">
+                    <span>Posters</span>
+                    <h3>Poster V1</h3>
+                    <p>RM49.99</p>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./product/product (2).jpg" alt="product 1">
+                <div class="description">
+                    <span>Posters</span>
+                    <h3>Poster V2</h3>
+                    <p>RM25.00</p>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
+            </div>
+            <div class="pro">
+                <img src="./product/product (3).jpg" alt="product 1">
+                <div class="description">
+                    <span>Posters</span>
+                    <h3>Poster V3</h3>
+                    <p>RM79.00</p>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <hr style="border: 1px solid #f5f5f6;">
+
+    <section id="review" class="section-p1">
+        <h1>What Our Customer Say</h1>
+        <div class="pro_container">
+            <div class="pro">
+                <a href=""><i class="fa fa-quote-left quote" aria-hidden="true"></i></a>
+                <div class="description">
+                    <p>Fast shipping and excellent customer service. The product was even better than expected. I will definitely be a returning customer.</p>
+                    <img src="./review/profile 1.png" alt="">
+                    <h4>Atlas Jam</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <a href=""><i class="fa fa-quote-left quote" aria-hidden="true"></i></a>
+                <div class="description">
+                    <p>Great user experience on your website. I found exactly what I was looking for at a great price. I will definitely be telling my friends.</p>
+                    <img src="./review/profile 2.png" alt="">
+                    <h4>Emily Law</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <a href=""><i class="fa fa-quote-left quote" aria-hidden="true"></i></a>
+                <div class="description">
+                    <p>Thank you for the excellent shopping experience. It arrived quickly and was exactly as described. I will definitely be shopping with you again in the future.</p>
+                    <img src="./review/profile 3.png" alt="">
+                    <h4>Chlo Thompson</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="wallpaper">
+        <div id="text">
+            <h1>Give the Gift of a Postcard</h1>
+            <p>Give the gift of a lasting memory with a postcard</p>
+            <button>purchase a postcard</button>
+        </div>
+    </section>
+    
+    <section id="features">
+        <div class="grid_container">
+            <div class="grid_item" style="border: none;">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <div class="grid_item_text">
+                    <h4>SECURE PAYMENT</h4>
+                    <p>All our payments our SSL secured</p>
+                </div>
+            </div>
+            <div class="grid_item">
+                <i class="fa fa-archive" aria-hidden="true"></i>
+                <div class="grid_item_text">
+                    <h4>DELIVERED WITH CARE</h4>
+                    <p>Super fast shipping to your door</p>
+                </div>
+            </div>
+            <div class="grid_item">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <div class="grid_item_text">
+                    <h4>EXCELLENT SERVICE</h4>
+                    <p>Live chat and phone support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr style="border: 1px solid #f5f5f6;">
+
+    <footer>
+        <div class="footer_navbar">
+            <div>
+                <ul class="footer_navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="./navbar/logo.svg" alt="logo company">
+            <p>Copyright<span><i class="fa fa-copyright copyright" aria-hidden="true"></i></span> 2023 Klassic Store</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
